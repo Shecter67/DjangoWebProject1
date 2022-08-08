@@ -42,6 +42,13 @@
     <Compile Include="DjangoWebProject1\settings.py" />
     <Compile Include="DjangoWebProject1\urls.py" />
     <Compile Include="DjangoWebProject1\wsgi.py" />
+    <Compile Include="testDjango1\admin.py" />
+    <Compile Include="testDjango1\apps.py" />
+    <Compile Include="testDjango1\migrations\__init__.py" />
+    <Compile Include="testDjango1\models.py" />
+    <Compile Include="testDjango1\tests.py" />
+    <Compile Include="testDjango1\views.py" />
+    <Compile Include="testDjango1\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -54,6 +61,10 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoWebProject1\" />
+    <Folder Include="testDjango1\" />
+    <Folder Include="testDjango1\migrations\" />
+    <Folder Include="testDjango1\templates\" />
+    <Folder Include="testDjango1\templates\testDjango1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
@@ -86,6 +97,7 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="testDjango1\templates\testDjango1\index.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
