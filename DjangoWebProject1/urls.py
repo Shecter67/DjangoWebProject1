@@ -14,4 +14,5 @@ import testDjango1.views
 urlpatterns = [
     url(r'^$', testDjango1.views.index, name='index'),
     url(r'^home$', testDjango1.views.index, name='home'),
+    url(r'^about$', testDjango1.views.about, name='about'),
 ]

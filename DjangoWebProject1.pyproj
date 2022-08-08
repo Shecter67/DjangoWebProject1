@@ -63,6 +63,7 @@
     <Folder Include="DjangoWebProject1\" />
     <Folder Include="testDjango1\" />
     <Folder Include="testDjango1\migrations\" />
+    <Folder Include="testDjango1\static\" />
     <Folder Include="testDjango1\templates\" />
     <Folder Include="testDjango1\templates\testDjango1\" />
   </ItemGroup>
@@ -97,7 +98,10 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="testDjango1\static\site.css" />
     <Content Include="testDjango1\templates\testDjango1\index.html" />
+    <Content Include="testDjango1\templates\testDjango1\about.html" />
+    <Content Include="testDjango1\templates\testDjango1\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
